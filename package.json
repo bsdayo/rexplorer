@@ -1,0 +1,38 @@
+{
+  "name": "rexplorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@iconify/vue": "^5.0.0",
+    "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-dialog": "~2.4.0",
+    "@tauri-apps/plugin-http": "~2.5.2",
+    "@tauri-apps/plugin-log": "~2.7.0",
+    "@tauri-apps/plugin-opener": "^2.5.0",
+    "@vueuse/core": "^13.9.0",
+    "dayjs": "^1.11.18",
+    "naive-ui": "^2.43.1",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/material-icon-theme": "^1.2.29",
+    "@iconify-json/material-symbols": "^1.2.39",
+    "@iconify/utils": "^3.0.2",
+    "@tauri-apps/cli": "^2.8.4",
+    "@types/node": "^24.5.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^5.1.1",
+    "typescript": "~5.9.2",
+    "unocss": "^66.5.2",
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.0.8"
+  }
+}
