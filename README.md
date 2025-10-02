@@ -8,10 +8,10 @@ It will use the `rclone` executable and configuration on your computer.
 pnpm tauri dev
 ```
 
-# Screenshot
+## Screenshot
 
-[Screenshot](assets/screenshot.png)
+![Screenshot](assets/screenshot.png)
 
-# License
+## License
 
 [MIT](LICENSE)
